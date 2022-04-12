@@ -1,0 +1,38 @@
+@import url(./main.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+:root {
+    /* # Primary*/
+
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark-Gray: hsl(0, 0%, 55%);
+    --Very-Dark-Gray: hsl(0, 0%, 41%);
+
+    /* # Fonts */
+    --Font-size: 15px;
+    --Alata: 'Alata', sans-serif;
+    --Josefin-sans: 'Josefin sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 1440px;
+    margin: auto;
+}
+li {
+    position: relative;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--White);
+    font-family: var(--Josefin-sans);
+    font-weight: 600;
+}

@@ -1,0 +1,87 @@
+/* Interactive Vr and img */
+.vr-container {
+    position: relative;
+    padding: 80px 230px;
+    margin: 0 auto;
+    width: 100%;
+}
+.container-text {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    padding: 130px 120px 150px 90px;
+    margin-bottom: 80px;
+    background-color: var(--White);
+}
+.container-text h2 {
+    font-size: 3rem;
+    font-family: var(--Josefin-sans);
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.container-text p {
+    font-size: 17px;
+    line-height: 25px;
+    color: var(--Very-Dark-Gray);
+    line-height: 30px;
+}
+
+/* Our creations and imgs */
+.Our-inf {
+    position: relative;
+    padding: 80px 230px;
+}
+.Our-inf h2 {
+    margin-bottom: 60px;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-family: var(--Josefin-sans);
+    font-weight: 300;
+}
+.grid-section-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+.grid-section-container p {
+    position: absolute;
+    bottom: 27px;
+    left: 26px;
+    text-transform: uppercase;
+    font-family: var(--Josefin-sans);
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: var(--White);
+}
+.grid-section-container p:hover{
+    color: var(--Black);
+}
+.product-card img {
+    width: 100%;
+}
+
+.product-card {
+    position: relative;
+    cursor: pointer;
+}
+.product-card:hover{
+    opacity: 0.3;
+}
+.btn-see-all {
+    position: absolute;
+    top: 7%;
+    left: 74.5%;
+    padding: 10px 40px;
+    border: 2px solid var(--Black);
+    color: var(--Black);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: var(--Alata);
+    font-weight: 300;
+}
+.btn-see-all:hover{
+    background: var(--Black);
+    color: var(--White);
+}

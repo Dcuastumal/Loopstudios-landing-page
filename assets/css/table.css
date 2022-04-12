@@ -1,0 +1,240 @@
+ body{
+        min-width: 900px;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+    header{
+        position: relative;
+        height: 100vh;
+        
+    }
+    .logo img{
+        position: absolute;
+        left: 5%;
+        width: 230px;
+    }
+    .query-navbar{
+        display: flex;
+        position: absolute;
+        right: 25px;
+        left: 25px;
+        top: 40px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .query-navbar img{
+        max-width: 145px;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: var(--Black);
+        padding: 25px;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        transition: 0.20s;
+    }
+    .navbar.active{
+        left: 0%;
+    }
+
+    .hamburger{
+        position: absolute;
+        right: 40px;
+        display: flex;
+    }
+    .navbar ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+    .navbar ul li a{
+        font-size: 25px;
+        font-weight: var(--Alata);
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    .navbar ul li::after{
+        content: '';
+        display: none;
+    }
+
+    .text-box{
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .text-box h1{
+        width:90%;
+        padding: 30px;
+        margin: 0 auto;
+        font-size: 4.2rem;
+    }
+    .vr-container{
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 120px;
+    }
+    .container-text{
+        position: static;
+        margin: 0 auto;
+        display: flex;
+        padding: 50px 80px;
+        flex-flow: wrap row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .container-text h2{
+        font-size: 3.8rem;
+    }
+    .container-text p{
+        font-size: 1.4rem;
+    }
+    .Our-inf h2{
+        font-size: 3.2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .grid-section-container{
+        gap: 20px;
+    }
+    .btn{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-see-all{
+        position: static;
+    }
+    footer{
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-nav ul{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .attribution {
+        margin-top: 35px;
+        text-align: center;
+    }
+@media(max-width: 550px){
+body{
+    min-width: 370px;
+    right: 0;
+    left: 0;
+}
+header{
+    height: 90vh;
+    background: url(../images/mobile/image-hero.jpg) no-repeat;
+    background-size: cover;
+}
+.logo img{
+    width: 124px;
+}
+.hamburger img{
+    width: 24px;
+}
+.text-box{
+    width: 100%;
+    height:70vh;
+    margin: 0 auto;
+}
+.text-box h1{
+    padding: 20px;
+    font-size: 2.5rem;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.vr-container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.picture-container-vr{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.picture-container-vr img{
+    width: 90%;
+    margin-bottom: 30px;
+}
+.container-text{
+    padding: 0;
+    width: 90%;
+}
+.container-text h2{
+    font-size: 2.4rem;
+}
+.container-text p{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.Our-inf{
+    width: 100%;
+    position: static;
+    padding: 20px 20px;
+}
+.Our-inf h2{
+    width: 100%;
+    font-size: 2rem;
+}
+.product-card img{
+    width: 100%;
+}
+.product-card{
+    position: relative;
+}
+footer{
+    height: auto;  
+    padding: 30px 0;
+}
+
+.footer-section{
+    margin-bottom: 30px;
+}
+.footer-logo img{
+    width: 140px;
+    margin:30px auto;
+}
+.footer-nav ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    gap: 20px;
+    place-content: center;
+}
+
+}
