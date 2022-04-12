@@ -7,9 +7,9 @@
 }
 .container-text {
     position: absolute;
-    top: 30%;
-    left: 55%;
-    padding: 130px 120px 150px 90px;
+    top: 38%;
+    left: 47%;
+    padding: 90px 380px 150px 110px;
     margin-bottom: 80px;
     background-color: var(--White);
 }
@@ -53,20 +53,20 @@
     font-family: var(--Josefin-sans);
     font-weight: 300;
     font-size: 2.1rem;
+}
+.product-card {
+    position: relative;
+    cursor: pointer;
     color: var(--White);
 }
-.grid-section-container p:hover{
+.product-card:hover{
     color: var(--Black);
 }
 .product-card img {
     width: 100%;
+    transition: all 0.2s ease-in;
 }
-
-.product-card {
-    position: relative;
-    cursor: pointer;
-}
-.product-card:hover{
+.product-card img:hover {
     opacity: 0.3;
 }
 .btn-see-all {
