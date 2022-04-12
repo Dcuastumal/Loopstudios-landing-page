@@ -29,6 +29,7 @@ header {
     position: absolute;
     bottom: 0;
     right: 25px;
+    top: 25px;
     border-bottom: 2px solid var(--White);
     width: 0;
 }

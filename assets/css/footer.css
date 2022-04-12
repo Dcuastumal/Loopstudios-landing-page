@@ -20,7 +20,7 @@ footer {
 .footer-nav ul li::after{
     content:"";
     position: absolute;
-    top: 30px;
+    top: 25px;
     right: 25px;
     border-bottom: 2px solid var(--White);
 }
@@ -52,5 +52,4 @@ footer {
     font-size: 14px;
     font-weight: 400;
     color: white;
-    
 }
